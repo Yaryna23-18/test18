@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R1</id>
+	<name>Test Run 10/5/2026</name>
+	<description></description>
+	<config></config>
+	<createdon>2026-10-05T11:48:51Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	
+	<stats>
+										<passed>
+			<percent>100</percent>
+			<count>15</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>0</percent>
+			<count>0</count>
+		</failed>
+																																																				</stats>	<sections>
+	<section>
+		<name>Test Cases</name>
+		<description></description>
+						<tests>
+						            																																				<test>
+				<id>T1</id>
+				<title>Перевірка відправки звернення з усіма правильно заповненими полями ,включно з необов&apos;язковими.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>120</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Ввести ім&apos;я в поле ваше &quot;ім&apos;я&quot;.&lt;/p&gt;&lt;p&gt;2.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/p&gt;&lt;p&gt;3.Ввести валідну електронну адресу в поле &quot;Email&quot;.&lt;/p&gt;&lt;p&gt;4.Написати звернення в полі &quot;повідомлення&quot;.&lt;/p&gt;&lt;p&gt;5.Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/p&gt;&lt;p&gt;6.Натиснути кнопку &quot;відправити&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C1</caseid>
+																			<casestatus></casestatus>
+																													<caseassignedto>Ярина Гнатишак</caseassignedto>
+																
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:50:31Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+																								<assignedto>Ярина Гнатишак</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T2</id>
+				<title>Перевірка відправки звернення лише з обов&apos;язково заповненими полями.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>120</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;div style=&quot;margin: 0px 0px 0px 20px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot; data-pasted=&quot;true&quot;&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline&quot;&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; overflow-wrap: break-word; overflow: auto&quot;&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%&quot;&gt;1.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%&quot;&gt;2.Ввести валідну електронну адресу в поле &quot;Email&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%&quot;&gt;3.Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%&quot;&gt;4.Натиснути кнопку &quot;відправити&quot;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin: 2em 0px 1.5em; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 600; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(48, 48, 48); user-select: none; -webkit-user-drag: none; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px 0px 0px 20px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline&quot;&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; overflow-wrap: break-word; overflow: auto&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C2</caseid>
+																			<casestatus></casestatus>
+																													<caseassignedto>Ярина Гнатишак</caseassignedto>
+																
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:52:59Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+																								<assignedto>Ярина Гнатишак</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T3</id>
+				<title>Перевірка відправки звернення за номером телефону,електронною поштою та згодою на обробку даних.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>120</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;2&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;.Ввести валідну електронну адресу в поле &quot;Email&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;&lt;span data-pasted=&quot;true&quot;&gt;3&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;.Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;&lt;span data-pasted=&quot;true&quot;&gt;&lt;span data-pasted=&quot;true&quot;&gt;4&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;.Натиснути кнопку &quot;відправити&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C3</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:55:43Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T4</id>
+				<title>Перевірка відправки звернення з вигаданою електронною поштою.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>180</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;1.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;2.&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Ввести вигадану електронну адресу &quot;qwer@gmail.com&quot; в поле &quot;Email&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;&lt;span data-pasted=&quot;true&quot;&gt;3.&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;4.&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Натиснути кнопку &quot;відправити&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C4</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:55:54Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T5</id>
+				<title>Перевірка відправки звернення ввівши в поле для імені цифри.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>180</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<preconds>&lt;p style=&quot;margin: 0px 0px 12px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot; data-pasted=&quot;true&quot;&gt;1.Ввести &quot;12345&quot; в поле ваше &quot;ім&apos;я&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;2.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;3.Ввести валідну електронну адресу в поле &quot;Email&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;4.Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;5.Натиснути кнопку &quot;відправити&quot;.&lt;/p&gt;</preconds>
+															<steps>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</steps>
+									</custom>
+												<caseid>C5</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:55:59Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T6</id>
+				<title>Перевірка відправки звернення з неіснуючим номером телефону .</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>120</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p style=&quot;margin: 0px 0px 12px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot; data-pasted=&quot;true&quot;&gt;1.Ввести ім&apos;я в поле ваше &quot;ім&apos;я&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;2.Ввести неіснуючий номер телефону &quot;999 999 99 99&quot; в поле &quot;номер телефону&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;3.Ввести валідну електронну адресу в поле &quot;Email&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;4.Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial&quot;&gt;5.Натиснути кнопку &quot;відправити&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C6</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:02Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T7</id>
+				<title>Перевірка роботи кнопок соціальних мереж / месенджерів .</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>60</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Натиснути на іконки соцмереж та месенджерів.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Відбувається перенаправлення у відповідний месенджер.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C7</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:05Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T8</id>
+				<title>Перевірка функціональності  кнопки &quot;форма зворотнього зв&apos;язку&quot;.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Натиснути кнопку &quot;форма зворотнього зв&apos;язку&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Після натиску кнопки з&apos;являється сторінка з контактною формою.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C8</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:08Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T9</id>
+				<title>Перевірка роботи кнопки відправити з подвійним натисканням.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>180</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Заповнити всі поля інформаціії.&lt;/p&gt;&lt;p&gt;2.&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Встановити галочку біля згоди  &quot;Я ознайомився(-лася) з Політикою конфіденційності   та даю згоду на обробку персональних даних&quot;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span data-pasted=&quot;true&quot;&gt;3.Подвійним натиском миші натиснути кнопку &quot;відправити&quot;&lt;/span&gt;&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма успішно надсилається,з&apos;являється повідомлення про успішну відправку.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C9</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:17Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T10</id>
+				<title>Перевірка роботи кнопки &quot;прикріпити документ&quot;.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Натиснути на кнопку &quot;прикріпити документ&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;З&apos;являється вікно з файлам.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C10</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:20Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T11</id>
+				<title>Перевірка відправки звернення з пустими полями.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>60</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Залишити всі поля пустими .&lt;/p&gt;&lt;p&gt;2.Натиснути &quot;відправити&quot;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Форма не відправляється. З&apos;являється помилка &quot;введіть правильний номер телефону&quot;.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C11</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:24Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T12</id>
+				<title>Перевірка відправки звернення без підтвердження Політики конфіденційності.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>60</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Заповнити всі поля.&lt;/p&gt;&lt;p&gt;2.Натиснути &quot;відправити&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Форма не відправляється. З&apos;являється помилка &quot;Вам потрібно прийняти умови Політики конфіденційності&quot;.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C12</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:28Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T13</id>
+				<title>Перевірка відправки звернення з некоректною електронною поштою.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>120</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(234, 241, 247)&quot;&gt;1.Ввести валідний номер телефону в поле &quot;номер телефону&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(234, 241, 247)&quot;&gt;2.Ввести некоректну електронну адресу  &quot; &lt;a data-fr-linked=&quot;true&quot; href=&quot;//qwrt.gmail.com&quot; data-pasted=&quot;true&quot;&gt;qwrt.gmail.com&lt;/a&gt; &quot;в поле &quot;Email&quot;.&lt;/p&gt;&lt;p style=&quot;margin: 12px 0px 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; font-size: 14px; line-height: 19.6px; font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; x: 140%; color: rgb(32, 32, 32); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(234, 241, 247)&quot;&gt;3.Натиснути кнопку &quot;відправити&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Форма не відправляється.Відображається помилка &quot;Включіть частину &quot;@&quot; в адресу електронної пошти.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C13</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:31Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T14</id>
+				<title>Перевірка прикріплення файлу недозволеного формату.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>180</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Заповнити обов&apos;язкові поля.&lt;/p&gt;&lt;p&gt;2.Прикріпити файл з аудіо.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Форма не відправляється.З&apos;являється помилка &quot;Цей тип файлу заборонено&quot;.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C14</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:35Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T15</id>
+				<title>Перевірка блокування введення букв в поле &quot;Номер телефону&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate>60</estimate>
+																								<references></references>
+																								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<steps>&lt;p&gt;1.Ввести букви в полі &quot;номер телефону&quot;.&lt;/p&gt;</steps>
+															<expected>&lt;p&gt;Символи не відображаються в полі.&lt;/p&gt;</expected>
+									</custom>
+												<caseid>C15</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+													<automation>No automation attached</automation>
+								<status>Passed</status>
+																<assignedto>Ярина Гнатишак</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-10-05T11:56:41Z</createdon>
+																		<createdby>Ярина Гнатишак</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
